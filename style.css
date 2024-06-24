@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+
+.hero {
+    background-color: #141279;
+    background-image: url('gym-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-blend-mode: multiply;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.container h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid #333;
+}
+
+
+/* Learn More button styles */
+.lrn-more-btn {
+    background-color: #f7f7f7;
+    color: #333;
+    margin-right: 20px;
+}
+
+.lrn-more-btn:hover {
+    background-color: #333;
+    color: #f7f7f7;
+}
+
+.get-started-btn {
+    background-color: #0d2244;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.get-started-btn:hover {
+    background-color: #282e38;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    .container p {
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
